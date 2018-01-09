@@ -10,7 +10,7 @@ class PushNotifications {
 	}
 	
 	public function android($data, $reg_id) {
-	        $url = 'https://android.googleapis.com/gcm/send';
+	        $url = 'https://android.googleapis.com/fcm/send';
 	        $message = array(
 	            'iditem' => $data['mid'],
 	            'title' => $data['mtitle'],
